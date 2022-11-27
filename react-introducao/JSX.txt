@@ -1,0 +1,16 @@
+JSX
+JavaScript Xml / extension. Estende a sintaxe do javascript introduzindo elementos como xml que são convertidos em funções de react.
+
+CASOS ESPECIAIS
+O caso especial mais comum é o atributo class. Pelo fato de class ser uma palavra reservada do javascript, o jsx resolveu mudar o nome para evitar conflitos. O correto é className.
+
+CAMELCASE
+Atributos com nomes compostos devem ser utilizados como camelCase. exemplo: autoplay vira autoPlay.
+
+EXPRESSÕES/VARIÁVEIS
+Expressões e variáveis podem ser colocadas dentro do JSX. Utilizando cheves {}.
+
+OBS: Se eu quiser passar valor estático, mapeio ele como string, se eu quiser um valor dinamico, utilizo com chaves
+
+JXS EXPRESSÕES
+Você pode executar qualquer expressão dentro das chaves {}. Se o resultado da expressão for um número, string ou array de números / strings o resultado irá aparecer na tela. Booleanos(true/false), undefined e null não irão resultar em nada na tela. Objetos irão retornar um erro.
