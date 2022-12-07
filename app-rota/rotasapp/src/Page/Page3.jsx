@@ -1,5 +1,11 @@
+import BasicExample from "../components/form";
 const Page3 = () => {
-  return <h1>CONTATO</h1>;
+  return (
+    <div>
+      <h1>CONTATO</h1>
+      <BasicExample />
+    </div>
+  );
 };
 
 export default Page3;

@@ -11,15 +11,16 @@ function App() {
     <div className="App">
       <header>
         <Link to={"/"}>
-          <Button variant="primary">Home</Button>{" "}
+          <Button variant="outline-success">Home</Button>{" "}
         </Link>
         <Link to={"/usuario"}>
-          <Button variant="primary">Usuario</Button>{" "}
+          <Button variant="outline-success">Usuario</Button>{" "}
         </Link>
         <Link to={"/contato"}>
-          <Button variant="primary">Contato</Button>{" "}
+          <Button variant="outline-success">Contato</Button>{" "}
         </Link>
       </header>
+
       <Routes>
         <Route path="/" element={<Page1 />}></Route>
         <Route path="/usuario" element={<Page2 />}></Route>
