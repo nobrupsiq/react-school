@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  margin: 0 auto;
+  margin-top: calc(-3.3531rem / 2);
+}
+
+.form input {
+  font-size: 1rem;
+  width: 39.875rem;
+  padding: 1rem;
+  outline: none;
+  border-radius: 0.5rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+}
+
+.form button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 5.625rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: bold;
+}
