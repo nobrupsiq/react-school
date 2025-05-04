@@ -1,0 +1,39 @@
+.taskHeaderContainer {
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.taskHeaderContainer aside {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: bold;
+}
+
+.taskHeaderContainer aside:first-child {
+  color: var(--blue)
+}
+
+.taskHeaderContainer aside:last-child {
+  color: var(--purple)
+}
+
+.taskHeaderContainer aside p {
+  font-size: 0.875rem;
+}
+
+.taskHeaderContainer aside span {
+  padding: 2px 8px;
+  border-radius: 16px;
+
+  font-size: 0.75rem;
+
+  background: var(--gray-400);
+  color: var(--gray-100)
+}

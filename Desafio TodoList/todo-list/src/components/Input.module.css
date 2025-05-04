@@ -1,0 +1,24 @@
+.textAddedTask {
+  border: 1px solid var(--gray-700);
+  border-radius: 0.5rem;
+
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  height: 3.375rem;
+  padding: 1rem;
+  margin-bottom: 2.3125rem;
+  width: 100%;
+
+  line-height: 140%;
+
+  transition: .2s;
+}
+
+.textAddedTask::placeholder {
+  color: var(--gray-300)
+}
+
+.textAddedTask:focus {
+  border: 1px solid var(--purple-dark)
+}

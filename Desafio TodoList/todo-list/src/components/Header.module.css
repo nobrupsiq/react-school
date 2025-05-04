@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+
+  padding: 5rem;
+
+  background: var(--gray-700)
+}
